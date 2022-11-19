@@ -1,0 +1,8 @@
+Application Order (Last One Wins)  Attribute Type	 Source Order
+-----------------------------------------------------------------------------------------------------------------------------
+1				   default		 Cookbook attribute fileRecipeEnvironmentRole
+2				   force_default	 Cookbook attribute fileRecipe
+3				   normal	         JSON file passed with chef-client -jCookbook attribute fileRecipe
+4				   override	         Cookbook attribute fileRecipeRoleEnvironment
+5				   force_override	 Cookbook attribute fileRecipe
+6				   automatic	         Identified by Ohai at the start of a Chef Infra Client Run

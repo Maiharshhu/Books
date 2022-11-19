@@ -1,0 +1,1 @@
+aws_devops_practice\chef\chef-repo> knife bootstrap 18.188.30.24 --ssh-user ubuntu --sudo --identity-file "C:\Users\harsh\Desktop\myhj440.pem" -N mychefnode0011
